@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801272F122D0CC0D0045BC7C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801272F022D0CC0D0045BC7C /* Concentration.swift */; };
+		801272F322D0CE360045BC7C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801272F222D0CE360045BC7C /* Card.swift */; };
 		805CCCE622B8CE31005C99CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CCCE522B8CE31005C99CB /* AppDelegate.swift */; };
 		805CCCE822B8CE31005C99CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805CCCE722B8CE31005C99CB /* ViewController.swift */; };
 		805CCCEB22B8CE31005C99CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805CCCE922B8CE31005C99CB /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		801272F022D0CC0D0045BC7C /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		801272F222D0CE360045BC7C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		805CCCE222B8CE31005C99CB /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805CCCE522B8CE31005C99CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		805CCCE722B8CE31005C99CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		805CCCE422B8CE31005C99CB /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				801272F022D0CC0D0045BC7C /* Concentration.swift */,
+				801272F222D0CE360045BC7C /* Card.swift */,
 				805CCCF822B8D2DA005C99CB /* Supporting Files */,
 				805CCCE722B8CE31005C99CB /* ViewController.swift */,
 				805CCCE922B8CE31005C99CB /* Main.storyboard */,
@@ -145,6 +151,8 @@
 			files = (
 				805CCCE822B8CE31005C99CB /* ViewController.swift in Sources */,
 				805CCCE622B8CE31005C99CB /* AppDelegate.swift in Sources */,
+				801272F122D0CC0D0045BC7C /* Concentration.swift in Sources */,
+				801272F322D0CE360045BC7C /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,14 +298,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9UZ74AB7S;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.concentration.lunax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,14 +318,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9UZ74AB7S;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.concentration.lunax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
